@@ -1,0 +1,41 @@
+.vte-part {
+	padding: 0.5em;
+	border: 0.05em solid #737373;
+	border-radius: 0.3em;
+	margin: 0.5em;
+}
+.vte-body {
+	-moz-appearance: textfield-multiline;
+    -webkit-appearance: textarea;
+	min-height: 4em;
+	position: relative;
+}
+.vte-element[contenteditable] {
+	display: inline-block;
+	min-width: 1em;
+	min-height: 1em;
+}
+/*
+.v-bold{
+	font-weight: bold;
+}
+.v-italic{
+	font-style: italic;
+}*/
+.v-underline{
+	text-decoration: underline;
+}
+.v-linethrough{
+  text-decoration: line-through;
+}
+.v-overline {
+  text-decoration: overline;
+}
+.vte-setting-btn{
+	cursor: pointer;
+}
+.vte-inline:focus {
+}
+.vte-setting-btn.vte-setting-active{
+	background-color: #80ccff;
+}
